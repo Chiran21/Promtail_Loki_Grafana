@@ -5,7 +5,7 @@ echo "deb [signed-by=/usr/share/keyrings/grafana.key] https://apt.grafana.com st
 # Update the list of available packages
 sudo apt-get update
 
-# Install the latest OSS release:
+# Install the latest OSS release :
 sudo apt-get install grafana
 
 sudo /bin/systemctl daemon-reload
